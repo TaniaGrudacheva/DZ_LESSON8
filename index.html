@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Урок 8 - Формы</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://use.fontawesome.com/129c100fbd.js"></script>      
+    </head>
+    <body>
+        <form action="https://weblaboratory.in.ua/mail/" method="post">
+            <div class="flex-container">
+                <div class="flex-element flex-element-30">
+                    <label class="labelhead labelbold">1. Фамилия*</label>
+                    <div class="flex-element-form text-element">
+                        <input type="text" name="FIO1" value="" required>
+                    </div>
+                </div>            
+                <div class="flex-element flex-element-30">
+                    <label class="labelhead">2. Имя</label>                          
+                    <div class="flex-element-form text-element">
+                        <input type="text" name="FIO2" value="" required>
+                    </div>
+                </div>    
+                <div class="flex-element flex-element-30">  
+                    <label class="labelhead">3. Отчество</label>                         
+                    <div class="flex-element-form text-element">
+                        <input  type="text" name="FIO3" value="" required>
+                    </div>
+                </div>    
+                <div class="flex-element flex-element-10 flex-element-right">    
+                    <label class="labelhead">4. Пол</label>                           
+                    <div class="flex-element-form form-element sex">
+                        <input type="radio" name="SEX" value="м"> м
+                        <input type="radio" name="SEX" value="ж"> ж
+                    </div>
+                </div>    
+            </div>
+            <div class="flex-container">
+                <div class="flex-element flex-element-25">
+                    <label class="labelhead">5. Есть ли у Вас домашнее животное</label>               
+                    <div class="flex-element-form radio-element">
+                        <label class="checkbox">
+                            <input class="checkbox" type="checkbox" name="pet1" value="Кот"><span><i class="fa fa-check" aria-hidden="true"></i></span> Кот
+                        </label> 
+                        <label class="checkbox">
+                            <input class="checkbox" type="checkbox" name="pet2" value="Собака"><span><i class="fa fa-check" aria-hidden="true"></i></span> Собака
+                        </label>    
+                        <label class="checkbox">
+                            <input class="checkbox" type="checkbox" name="pet3" value="Попугай"><span><i class="fa fa-check" aria-hidden="true"></i></span> Попугай
+                        </label> 
+                        <label class="checkbox">
+                            <input class="checkbox" type="checkbox" name="pet4" value="Морская свинка"><span><i class="fa fa-check" aria-hidden="true"></i></span> Морская свинка
+                        </label> 
+                        <label class="checkbox">
+                            <input class="checkbox" type="checkbox" name="pet5" value="Другое"><span><i class="fa fa-check" aria-hidden="true"></i></span> Другое
+                        </label> 
+                    </div>    
+                </div>
+                <div class="flex-element flex-element-25">
+                    <label class="labelhead">6. В каком населенном пункте Вы живете</label>               
+                    <div class="flex-element-form radio-element">
+                        <label class="radio">
+                            <input type="radio" name="place" value="Киев"><span><i></i></span> Киев
+                        </label>
+                        <label class="radio">   
+                            <input type="radio" name="place" value="Областной центр"><span><i></i></span> Областной центр
+                        </label>
+                        <label class="radio">                           
+                            <input type="radio" name="place" value="Небольшой город"><span><i></i></span> Небольшой город
+                        </label>
+                        <label class="radio">       
+                            <input type="radio" name="place" value="ПГТ"><span><i></i></span> ПГТ, деревня
+                        </label>
+                        <label class="radio">   
+                            <input type="radio" name="place" value="Другое"><span><i></i></span> Другое
+                        </label> 
+                    </div>
+                </div>
+                <div class="flex-element flex-element-25">
+                    <label class="labelhead">7. Какое образование Вы имеете на сегодня</label>             
+                    <div class="flex-element-form radio-element">
+                        <label class="radio">   
+                            <input type="radio" name="education" value="Высшее"><span><i></i></span> Высшее
+                        </label>
+                        <label class="radio">                           
+                            <input type="radio" name="education" value="Неполое высшее"><span><i></i></span> Неполное высшее
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="education" value="Среднее специальное"><span><i></i></span> Среднее специальное
+                        </label>
+                        <label class="radio">       
+                            <input type="radio" name="education" value="Среднее"><span><i></i></span> Среднее
+                        </label>
+                        <label class="radio">   
+                            <input type="radio" name="education" value="Другое"><span><i></i></span> Другое
+                        </label> 
+                     </div>
+                </div>        
+                <div class="flex-element flex-element-25 flex-element-right">
+                    <label class="labelhead">8. Как Вы проводите свободное время</label>
+                    <div class="flex-element-form radio-element">
+                        <label class="checkbox">
+                            <input class="checkbox" type="checkbox" name="time1" value="Кино"><span><i class="fa fa-check" aria-hidden="true"></i></span> Хожу в кино
+                        </label> 
+                        <label class="checkbox">
+                            <input class="checkbox" type="checkbox" name="time2" value="Спортклуб"><span><i class="fa fa-check" aria-hidden="true"></i></span> Посещаю спортклуб
+                        </label>
+                        <label class="checkbox">
+                            <input class="checkbox" type="checkbox" name="time3" value="Книги"><span><i class="fa fa-check" aria-hidden="true"></i></span> Читаю книги
+                        </label>
+                        <label class="checkbox">
+                            <input class="checkbox" type="checkbox" name="time4" value="Соцсети"><span><i class="fa fa-check" aria-hidden="true"></i></span> Сижу в соцсетях
+                        </label>
+                        <label class="checkbox">
+                            <input class="checkbox" type="checkbox" name="time5" value="Другое"><span><i class="fa fa-check" aria-hidden="true"></i></span> Другое
+                        </label>
+                    </div>
+                </div>
+            </div>    
+            <div class="flex-container">
+                <div class="flex-element flex-element-100 flex-element-right">
+                    <label class="labelhead">9. Опишите возникшую проблему</label>
+                    <div class="flex-element-form">
+                        <div class="form-element area-element">
+                           <textarea name="message" spellcheck="true" lang="ru" maxlength=600           
+                               placeholder="...Текст не должен превышать 600 символов...">
+                           </textarea>
+                        </div>
+                    </div> 
+                </div>       
+            </div>
+            <div class="flex-container"> 
+                <div class="flex-element flex-element-50">
+                    <label class="labelhead">10. Приложите скан паспорта</label>             
+                    <div class="flex-element-form form-element text-element">
+                        <input type="file" name="passport1" value="">
+                    </div>
+                </div>        
+                <div class="flex-element flex-element-30">
+                    <label class="labelhead">11. Пароль</label>             
+                    <div class="flex-element-form form-element text-element">
+                        <input type="password" name="password" maxlength=10 value="">
+                    </div>
+                </div>        
+            </div>
+            <div class="flex-container">                    
+                <div class="flex-element flex-element-50">
+                    <label class="labelhead">12. Выберите элемент списка</label>             
+                    <select name="SelectColor" class="flex-element-form form-element select-element">
+                        <option value=None>Цвет не выбран</option>
+                        <option value=Blue>Синий</option>
+                        <option value=Red>Красный</option>
+                        <option value=Yellow>Желтый</option>      
+                        <option value=Green>Зеленый</option>                                  
+                    </select>                                                                       
+                </div>        
+                <div class="flex-element flex-element-50">
+                    <label class="labelhead">13. Выберите список цветов</label>             
+                    <select name="SelectColorMultiple[]" multiple class="flex-element-form form-element select-element">
+                        <option value=None>Цвет не выбран</option>
+                        <option value=Blue>Синий</option>
+                        <option value=Red>Красный</option>
+                        <option value=Yellow>Желтый</option>      
+                        <option value=Green>Зеленый</option>                                  
+                    </select>                                                                           
+                </div>  
+            </div>         
+            <br>               
+            <div class="form-element">
+                <input type="submit" class="button" value="Отправить">
+                <input type="reset" class= "button" value="Отменить ввод"> 
+            </div>
+            
+        </form>
+    </body>
+</html>    
